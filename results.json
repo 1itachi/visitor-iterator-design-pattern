@@ -1,0 +1,255 @@
+{
+  "suites": {
+    "title": "root",
+    "fullTitle": "root",
+    "suites": [
+      {
+        "title": "test the text() methods on AST nodes",
+        "fullTitle": "test the text() methods on AST nodes",
+        "suites": [],
+        "tests": [
+          {
+            "title": "calling text() on assignment",
+            "fullTitle": "test the text() methods on AST nodes calling text() on assignment",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling text() on nested assignment",
+            "fullTitle": "test the text() methods on AST nodes calling text() on nested assignment",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling text() on sequence of assignments",
+            "fullTitle": "test the text() methods on AST nodes calling text() on sequence of assignments",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling text() on + expression with two numeric args",
+            "fullTitle": "test the text() methods on AST nodes calling text() on + expression with two numeric args",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling text() on + expression with two string args",
+            "fullTitle": "test the text() methods on AST nodes calling text() on + expression with two string args",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling text() on + expression with two mixed args",
+            "fullTitle": "test the text() methods on AST nodes calling text() on + expression with two mixed args",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling text() on a statement sequence",
+            "fullTitle": "test the text() methods on AST nodes calling text() on a statement sequence",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling text() on another statement sequence",
+            "fullTitle": "test the text() methods on AST nodes calling text() on another statement sequence",
+            "status": "PASS",
+            "error": null
+          }
+        ],
+        "pass": 8,
+        "fail": 0
+      },
+      {
+        "title": "CountVisitorTests",
+        "fullTitle": "CountVisitorTests",
+        "suites": [],
+        "tests": [
+          {
+            "title": "count nodes in a small AST",
+            "fullTitle": "CountVisitorTests count nodes in a small AST",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "count nodes for two seperate string literals",
+            "fullTitle": "CountVisitorTests count nodes for two seperate string literals",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "count nodes for string literals in single AST",
+            "fullTitle": "CountVisitorTests count nodes for string literals in single AST",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "count nodes in sequence of sequence in an AST",
+            "fullTitle": "CountVisitorTests count nodes in sequence of sequence in an AST",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "count nodes for plus exp of a numeric and string literal",
+            "fullTitle": "CountVisitorTests count nodes for plus exp of a numeric and string literal",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling count visitor on another statement sequence",
+            "fullTitle": "CountVisitorTests calling count visitor on another statement sequence",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling count visitor on + expression with two mixed args",
+            "fullTitle": "CountVisitorTests calling count visitor on + expression with two mixed args",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling count visitor on nested assignment",
+            "fullTitle": "CountVisitorTests calling count visitor on nested assignment",
+            "status": "PASS",
+            "error": null
+          }
+        ],
+        "pass": 8,
+        "fail": 0
+      },
+      {
+        "title": "StmtIteratorTests",
+        "fullTitle": "StmtIteratorTests",
+        "suites": [],
+        "tests": [
+          {
+            "title": "iterator through the statements of a small AST",
+            "fullTitle": "StmtIteratorTests iterator through the statements of a small AST",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "iterator through AST with no statements",
+            "fullTitle": "StmtIteratorTests iterator through AST with no statements",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "iterator through AST to check no sequence is selected",
+            "fullTitle": "StmtIteratorTests iterator through AST to check no sequence is selected",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "iterator through AST with",
+            "fullTitle": "StmtIteratorTests iterator through AST with",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "iterator hasNext method returns false if there is no next node",
+            "fullTitle": "StmtIteratorTests iterator hasNext method returns false if there is no next node",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "iterator next method returns undefined if there is no next node",
+            "fullTitle": "StmtIteratorTests iterator next method returns undefined if there is no next node",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling iterator on another statement sequence",
+            "fullTitle": "StmtIteratorTests calling iterator on another statement sequence",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling iterator on + expression with two mixed args",
+            "fullTitle": "StmtIteratorTests calling iterator on + expression with two mixed args",
+            "status": "PASS",
+            "error": null
+          }
+        ],
+        "pass": 8,
+        "fail": 0
+      },
+      {
+        "title": "TypeCheckVisitorTests",
+        "fullTitle": "TypeCheckVisitorTests",
+        "suites": [],
+        "tests": [
+          {
+            "title": "type-check a small AST with both kinds of errors",
+            "fullTitle": "TypeCheckVisitorTests type-check a small AST with both kinds of errors",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "Check for duplicate variable declaration error",
+            "fullTitle": "TypeCheckVisitorTests Check for duplicate variable declaration error",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "Check for type error",
+            "fullTitle": "TypeCheckVisitorTests Check for type error",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "Check for empty array if no errors",
+            "fullTitle": "TypeCheckVisitorTests Check for empty array if no errors",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "Check for no error is generated if varibale is added to Numeric literal",
+            "fullTitle": "TypeCheckVisitorTests Check for no error is generated if varibale is added to Numeric literal",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "Check for no error is generated if varibale is added to String literal",
+            "fullTitle": "TypeCheckVisitorTests Check for no error is generated if varibale is added to String literal",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling typechecker on another statement sequence",
+            "fullTitle": "TypeCheckVisitorTests calling typechecker on another statement sequence",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling typechecker for multiple errors",
+            "fullTitle": "TypeCheckVisitorTests calling typechecker for multiple errors",
+            "status": "PASS",
+            "error": null
+          },
+          {
+            "title": "calling Type cheker on + expression with two mixed args",
+            "fullTitle": "TypeCheckVisitorTests calling Type cheker on + expression with two mixed args",
+            "status": "PASS",
+            "error": null
+          }
+        ],
+        "pass": 9,
+        "fail": 0
+      }
+    ],
+    "tests": [],
+    "pass": 0,
+    "fail": 0
+  },
+  "stats": {
+    "suites": 4,
+    "tests": 33,
+    "passes": 33,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-10-23T15:50:29.230Z",
+    "end": "2020-10-23T15:50:29.309Z",
+    "duration": 79
+  }
+}
